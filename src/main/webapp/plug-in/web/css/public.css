@@ -1,0 +1,64 @@
+/*    ::-webkit-scrollbar{width:0px}    */           
+                    
+/*iconfont*/                 
+/* html { overflow: scroll; } */
+body,em{width: 20px; font-size: 12px;margin: 0; padding:0; border: 0; height: 9000000px;font-family: Arial,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif!important;}
+ul,li,p,ol{list-style: none; margin: 0; padding:0;}
+dl,dt,dd{font-size: 12px; border: 0; list-style: none; margin: 0; padding:0; font-style: normal;}
+body {-webkit-user-select: none; -webkit-text-size-adjust: none; -webkit-tap-highlight-color: rgba(0,0,0,0.05); }
+img{display: block; margin: 0px; padding:0px;border:none;}
+html,body{-webkit-text-size-adjust:none;height:100%;width:100%;}/* 璁剧疆webkit鍐呮牳涓嬫枃瀛楀ぇ灏忎笉灏忎簬12px */
+a,button,input{-webkit-touch-callout:none;outline:none;text-decoration: none}/* 绂佹闀挎寜閾炬帴銆佹寜閽�杈撳叆妗嗗嚭鐜扮郴缁熼粯璁ゅ脊妗嗚彍鍗�*/
+h1, h2, h3, h4, h5, h6, input, textarea, select, button, label, address, caption, cite, code, em, strong, var {font-weight: normal; font-style: normal; font-size: 12px;margin: 0; padding:0; font:"Helvetica Neue","Microsoft Yahei",sans-serif} 
+a {color:#000;text-decoration: none; } i{font-style: normal;} 
+.clearfix:before, .clearfix:after {content: " "; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; clear: both; }
+/*input {-webkit-appearance: none;}*/
+input, textarea, select {border: none; outline: none; -webkit-tap-highlight-color: rgba(255,255,255,0); background: #fff; }
+input[type=button],input[type=number], input[type=submit],input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none;}  
+section {max-width: 640px; margin: 0px auto;}
+* {tap-highlight-color: rgba(0,0,0,0); -webkit-tap-highlight-color: rgba(0,0,0,0); -ms-tap-highlight-color: rgba(0,0,0,0);}
+a:hover{text-decoration: none}
+@media only screen and (width:320px){html{font-size:15.5px}
+}
+@media only screen and (width:340px){html{font-size:17px}
+}
+@media only screen and (width:360px){html{font-size:18px}
+}
+@media only screen and (width:375px){html{font-size:18.75px}
+}
+@media only screen and (width:384px){html{font-size:19.2px}
+}
+@media only screen and (width:400px){html{font-size:20px}
+}
+@media only screen and (width:412px){html{font-size:20.6px}
+}
+@media only screen and (width:414px){html{font-size:20.7px}
+}
+.layui-m-layercont {padding:30px;}
+.layui-m-layerbtn {background-color: #88BF7B;}
+.content_q .user_login li:nth-child(2) input.yzm_btn.on {background-color: #95989A;}
+.container{width:1200px;margin: 0 auto;}
+.footer_t .copyright img{margin-right: 10px}
+.footer .copyright img{margin-right: 10px}
+
+.ser_button {
+  animation: Updown 2s infinite linear;
+}
+@keyframes Updown {
+  0% {
+    margin-bottom: 0;
+  }
+  25%{
+    margin-bottom: 15px;
+  }
+  50%{
+    margin-bottom: 30px;
+  }
+  75%{
+    margin-bottom: 15px;
+  }
+  100%{
+    margin-bottom: 0;
+  }
+}
+input::-webkit-input-placeholder {color: #b0b0b0;}

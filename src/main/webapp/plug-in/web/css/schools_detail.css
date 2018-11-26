@@ -1,0 +1,124 @@
+select{appearance:none;-moz-appearance:none; -webkit-appearance:none;  }
+.schools_detail{background-color: #f4f6f9;padding-top: 20px}
+.schools_detail_top{height: 108px;border:1px solid #e6e6e6;padding-left: 30px;background-color: #fff;}
+.schools_detail_top .search_box{width: 628px;height: 43px;line-height: 43px;border:1px solid #e6e6e6;margin-top: 30px;position:relative;}
+.schools_detail_top .search_box i{margin-top: -3px;margin-left: 25px;width: 13px;height: 7px;display: inline-block;position:absolute;left: 10%;top: 50%;background: url("../images/pop_icon.png") no-repeat;}
+.schools_detail_top .search_box select{width: 105px;text-align: center;padding:0 13px;height: 42px;line-height: 42px;font-size:14px;color:#323332;}
+.schools_detail_top .search_box select option:hover{background-color: #25b674;}
+.schools_detail_top .search_box input{padding-left: 20px;font-size: 14px;color:#646664;border-left: 1px solid #e6e6e6;height: 43px;line-height: 43px;}
+.schools_detail_top .search_btn{float: right;width: 72px;height: 28px;line-height: 28px;background-color: #e1e3e6;font-size: 14px;color: #646664;text-align:center;display:inline-block;border-radius: 4px;margin-right: 20px;margin-top: 7px;}
+.location{height: 55px;line-height: 55px;font-size: 14px;color:#323332;}
+.schools_banner{}
+.schools_banner .banner{background-color: #fff;padding:10px;position: relative}
+.schools_banner .schools_logo{position: absolute;top: 50%;left: 0;margin-top: 50px;margin-left: 20px;}
+.schools_banner .schools_logo img{width: 136px;height: 136px;border-radius:50%;}
+.schools_banner .schools_logo h3{font-size:18px;color:#333333;text-align: center;margin-top: 10px;}
+.schools_banner .schools_info{margin:0 auto;margin-top: 37px;margin-bottom: 50px;margin-left: 30%}
+.schools_banner .schools_info ul{float: left;}
+.schools_banner .schools_info li{float: left;border:1px solid #e6e6e6;padding:0 15px;border-right:0;height: 28px;line-height: 28px;}
+.schools_banner .schools_info li a{font-size:14px;color:#666;display: block;}
+.schools_banner .schools_info li:last-child{border-right:1px solid #e6e6e6;}
+.schools_banner .code{float: left;display:inline-block;width: 128px;height: 28px;line-height: 28px;border:1px solid #cccccc;border-radius:5px;background-color: #e1e3e6;color:#4c4c4c;font-size:14px;text-align: center;margin:0 20px }
+.schools_banner .zixun{float: left;display:inline-block;width: 100px;height: 30px;line-height: 30px;border-radius:5px;background-color: #25b674;color:#fff;font-size:14px;text-align: center}
+.schools_banner .zixun i{display:inline-block;width: 16px;height: 16px;background: url("../images/zixun_icon.png") no-repeat;vertical-align: middle;margin-right: 8px;}
+.schools_tab_nav{}
+.schools_tab_nav a{ display: inline-block; width: 171px; height: 140px;}  
+.schools_tab_nav li{float: left;width: 170px;height: 138px;background-color: #fff;border:1px solid #e6e6e6;border-left: 0}
+.schools_tab_nav li i{display:block;width: 45px;height: 45px;margin:0 auto;margin-top: 32px;margin-bottom: 10px}
+.schools_tab_nav li:first-child i{background: url("../images/schools_nav1.png") no-repeat;}
+.schools_tab_nav li:nth-child(2) i{background: url("../images/schools_nav2.png") no-repeat;}
+.schools_tab_nav li:nth-child(3) i{background: url("../images/schools_nav3.png") no-repeat;}
+.schools_tab_nav li:nth-child(4) i{background: url("../images/schools_nav4.png") no-repeat;}
+.schools_tab_nav li:nth-child(5) i{background: url("../images/schools_nav5.png") no-repeat;}
+.schools_tab_nav li:nth-child(6) i{background: url("../images/schools_nav6.png") no-repeat;}
+.schools_tab_nav li:nth-child(7) i{background: url("../images/schools_nav7.png") no-repeat;}
+.schools_tab_nav li.active:first-child i{background: url("../images/schools_nav11.png") no-repeat;}
+.schools_tab_nav li.active:nth-child(2) i{background: url("../images/schools_nav22.png") no-repeat;}
+.schools_tab_nav li.active:nth-child(3) i{background: url("../images/schools_nav33.png") no-repeat;}
+.schools_tab_nav li.active:nth-child(4) i{background: url("../images/schools_nav44.png") no-repeat;}
+.schools_tab_nav li.active:nth-child(5) i{background: url("../images/schools_nav55.png") no-repeat;}
+.schools_tab_nav li.active:nth-child(6) i{background: url("../images/schools_nav66.png") no-repeat;}
+.schools_tab_nav li.active:nth-child(7) i{background: url("../images/schools_nav77.png") no-repeat;}
+.schools_tab_nav li img{width: 45px;margin:0 auto;margin-top: 32px;margin-bottom: 10px;}
+.schools_tab_nav li h3{font-size:18px;color:#4c4c4c;text-align: center}
+.schools_tab_nav li.active{background-color: #25b674;border:1px solid #25b674;}
+.schools_tab_nav li.active h3{color:#fff;}
+.schools_left{float: left;width: 808px;background-color: #fff;border:1px solid #e6e6e6;margin-top: 30px;padding:20px;}
+.schools_left .introduce h3{font-size:14px;color:#333333;font-weight: bold;height: 46px;line-height: 46px;border:1px solid #e6e6e6;border-left:5px solid #25b674;padding-left: 15px;}
+.schools_left .introduce h3 span{float: right;font-size:14px;color:#666666;font-weight: normal;margin-right: 15px;}
+.schools_left .introduce .txt{margin-top: 38px;overflow: hidden}
+.schools_left .introduce .txt p{font-size:12px;color:#666;line-height: 24px;text-indent: 2em;display: inline-block}
+.schools_left .introduce .txt span{color:#25b674;}
+.schools_left .introduce_list{margin: 30px 0;}
+.schools_left .introduce_list li{height: 35px;line-height: 35px;}
+.schools_left .introduce_list li i{display:inline-block;width: 4px;height: 4px;background-color: #e1e3e6;vertical-align: middle;margin-right: 4px;}
+.schools_left .introduce_list li a{display: inline-block;color:#666;font-size:12px;}
+.schools_left .introduce_list li:hover a{color:#25b674;text-decoration: underline;}
+.schools_left .states{margin-top: 40px;}
+.states a:hover span{color:#25b674}
+.schools_left{margin-right: 8px;}
+.schools_left .introduce_tab{margin-top: 40px;}
+.schools_left .introduce_tab table{border-bottom:1px solid #e6e6e6;border-left:1px solid #e6e6e6;}
+.schools_left .introduce_tab table th,.introduce_tab table td{width: 200px;height: 50px;line-height: 50px;text-align: center;border-top:1px solid #e6e6e6;border-right:1px solid #e6e6e6;}
+.schools_left .introduce_tab table th{background-color: #3ebb7f;color: #fff;font-size: 14px}
+.schools_left .introduce_tab table td{font-size:14px;color:#4c4c4c}
+.schools_left .introduce_tab table tr td:last-child a{color: #3ebb7f;display: block}
+.schools_left .introduce_burse{margin-top: 40px;overflow: hidden}
+.schools_left .introduce_burse p{margin-bottom: 25px}
+.schools_left .introduce_burse table{border-bottom:1px solid #e6e6e6;border-left:1px solid #e6e6e6;}
+.schools_left .introduce_burse table th,.introduce_burse table td{text-align: center;border-top:1px solid #e6e6e6;border-right:1px solid #e6e6e6;height: 18px;line-height: 18px;}
+.schools_left .introduce_burse table tr td:first-child{width: 620px;text-align: left;padding-left:10px;}
+.schools_left .introduce_burse table tr td:nth-child(2){width: 69px;}
+.schools_left .introduce_burse table tr td:last-child{width: 120px;}
+.schools_left .view_all{display:block;width: 98px;height: 33px;line-height: 33px;margin:30px auto;text-align: center;border:1px solid #25b674;border-radius: 5px;color:#25b674;}
+.hide_all{display:block;width: 98px;height: 33px;line-height: 33px;margin:30px auto;text-align: center;border:1px solid #25b674;border-radius: 5px;color:#25b674;display:none;}
+.schools_right{float: right;margin-top: 30px;width: 340px;position: relative}
+.schools_right .page_core{position:absolute;top: 0;right: 0;}
+.schools_right .schools_right_txt{border-bottom:4px solid #25b674;padding:30px 35px;background-color: #fff;}
+.schools_right .schools_right_txt p{font-size:14px;color: #333333;line-height: 28px;}
+.schools_right .side_qrcode{margin-top: 10px;width: 341px;height: 182px;}
+.user_type{position:relative;}
+.user_type em{margin-top: 2px;margin-right: 18px;width: 13px;height: 7px;display: inline-block;position:absolute;right: 0;top: 50%;background: url("../images/pop_icon.png") no-repeat;}
+
+
+.schools_intro .txt{overflow: hidden}
+.schools_intro .introduce_list li{float: left;height: 170px;}
+.schools_intro .introduce_list li:first-child{margin-right: 18px}
+.schools_intro .introduce_list li img{width: 395px;height: 170px;}
+.schools_guide h4{font-size:14px;color:#25b674;text-align: center;margin-bottom:20px;font-weight: bold;}
+.schools_guide p{padding-left: 27px;text-align: left;text-indent: 0em !important;}
+
+.schools_profess dl dd{padding:30px 0;border-bottom:1px solid #e6e6e6;float: left;}
+.schools_profess dl dd img{float: left;width: 250px;height: 140px;margin-right: 20px;}
+.schools_profess dl dd:last-child{border-bottom:0;margin-bottom: 10px;}
+.schools_profess dl dd:hover h4{color:#25b674}
+.profess_txt{float: left;width: 530px;}
+.profess_txt h4{font-size:18px;color:#333333;height: 40px;line-height: 40px;}
+.profess_txt p{font-size:14px;color:#666666;line-height: 20px;max-height:40px;overflow: hidden}
+.profess_txt span{font-size:14px;color:#909090;margin-top: 30px;display: block}
+.profess_txt span i{display: inline-block;width: 16px;height: 13px;background: url("../images/article_list_icon.png") no-repeat;vertical-align: middle;margin-left: 25px;margin-right: 5px}
+
+.schools_score h4{font-size:14px;color:#25b674;text-align: center;margin-bottom:20px;font-weight: bold;}
+.schools_score p{text-align: left;text-indent: 2em;}
+.profess_list .schools_left .states{margin-top: 0px}
+.profess_list .schools_left .introduce h3 span{width: 70px;background-color: #25b674;color:#fff;height: 46px;line-height: 46px;margin-right: 0;text-align: center}
+.profess_list .schools_left .introduce h3{font-weight: normal;}
+.profess_list_loccation{border:1px solid #e6e6e6;margin-top: 20px;padding:10px 20px;padding-right: 0;}
+.profess_list_loccation li{float: left;margin-right: 15px;height: 25px;line-height: 25px;}
+.profess_list_loccation li a{font-size: 14px;color:#666;}
+.profess_list_loccation li.on a{color:#25b674;text-decoration: underline;}
+.profess_list_loccation li:hover a{color:#25b674;text-decoration: underline;}
+.profess_list .schools_left .introduce_tab{margin-top: 20px;margin-bottom: 20px;}
+.profess_list .schools_left .introduce_tab table tr td:last-child a{color:#666}
+.profess_list .schools_left .introduce_tab table tr td:last-child a.profess_detail_bth:hover{color:#25b674;}
+.profess_list .schools_left .introduce_tab table tr td:last-child{width: 444px;}
+.profess_list .profess_detail_bth{float: left;}
+.profess_list .profess_detail_bth i{display: inline-block;width: 20px;height: 12px;background: url(../images/profess_view_icon.png) no-repeat; vertical-align: middle;margin-left: 50px;margin-right: 15px}
+.profess_list .profess_detail_bth:hover i{background: url(../images/profess_view_icon2.png) no-repeat;}
+.profess_list .profess_zixun_btn{float: right;}
+.profess_list .schools_left .introduce_tab table tr td:last-child a.profess_zixun_btn{color:#25b674}
+.profess_list .schools_left .introduce_tab table tr td:last-child a.profess_zixun_btn:hover{color:#fff;background-color: #25b674;}
+.profess_list .profess_zixun_btn{width: 98px;height: 28px;line-height: 28px;border:1px solid #25b674;color:#25b674;border-radius: 2px;margin-top: 10px;margin-right: 48px;}
+
+
+

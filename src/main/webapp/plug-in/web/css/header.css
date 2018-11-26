@@ -1,0 +1,60 @@
+.top_bar{height: 40px;background-color: #f5f5f5;border-bottom:1px solid #e5e5e5;}
+.top_bar p{color:#333;font-size:16px;line-height: 40px;}
+.header{margin:40px auto;}
+.header .logo{float: left;}
+.notice{float: right;background:url("../images/notice_icon.png") 10px 2px no-repeat;margin-right: 40px;vertical-align: middle;margin-top: 8px}
+.notice .noticTipTxt{color:#333;height:22px;line-height:22px;overflow:hidden;margin:0 0 0 30px;}
+.notice .noticTipTxt li{height:22px;line-height:22px;}
+.notice .noticTipTxt a{display: block;color:#333;font-size:12px;text-decoration:none;width: 348px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.notice .noticTipTxt a span{color: #d44436;margin-right: 5px}
+.notice .noticTipTxt a:hover{color:#d44436;text-decoration:underline;}
+.header .search{width:150px;height: 32px;border:1px solid #25b674;border-radius:15px;float: right;}
+.header .search input{width:105px;border-radius:15px;display:inline-block;font-size:12px;padding:8px 0;margin-left:10px;}
+.header .search_btn{width:30px;height: 30px;display:inline-block;cursor: pointer}
+.header .search_btn i{display:inline-block;width:18px;height:18px;background: url("../images/search_icon.png") no-repeat;vertical-align: middle;margin-top: -2px}
+
+.nav{margin-bottom: 30px;}
+.nav li{float: left;padding-right:75px;}
+.nav li a{font-size:18px;color:#333}
+.nav li.mark a{color:#25b674}
+.nav li.on a{color:#25b674}
+.nav li:hover a{color:#25b674}
+.nav li.mark {position: relative;}
+.nav li.mark:before{content: ""; position: absolute; width: 5px; height: 100%;z-index: 999; top: 0; left: -50px; overflow: hidden;background-color: #fff;transform:rotate(45deg);} 
+.nav li.mark.on::before{-webkit-transition: left 3s; -moz-transition: left 3s; transition: left 3s; left: 100%}
+
+.footer{height: 165px;background-color: #eaeaea;}
+.footer p{text-align: center;font-size: 12px;color:#8f8f8f;height: 25px;line-height:25px;}
+.footer .copyright{width: 670px;margin:20px auto;}
+.footer .copyright img{display: inline-block;}
+.footer p:first-child{padding-top: 25px}
+
+.hang_server{width: 75px;height: 413px;background: url("../images/pages/hang_server.png") no-repeat;position:fixed;right: -2px;top: 30%;z-index: 9999}
+.hang_server ul{padding-left:10px;padding:16px 7px;}
+.hang_server li{margin:13px 5px 0px 8px;padding-bottom: 13px;border-bottom:1px solid #e6e6e6;}
+.hang_server li img{}
+.hang_server li h3{font-size:12px;color:#333333;margin-top: 10px;text-align: center}
+.hang_server li:last-child{border-bottom:0;}
+.hang_server li:hover h3{color:#30c17f;}
+.hang_server li .server1{display:block;margin:0 auto;width:24px;height: 24px;background: url("../images/pages/server1.png") no-repeat;}
+.hang_server li:hover .server1{background: url("../images/pages/server11.png") no-repeat;} 
+.hang_server li .server2{display:block;margin:0 auto;width:31px;height: 27px;background: url("../images/pages/server2.png") no-repeat;}
+.hang_server li:hover .server2{background: url("../images/pages/server22.png") no-repeat;} 
+.hang_server li .server3{display:block;margin:0 auto;width:24px;height: 23px;background: url("../images/pages/server3.png") no-repeat;}
+.hang_server li:hover .server3{background: url("../images/pages/server33.png") no-repeat;}
+.hang_server li .server4{display:block;margin:0 auto;width:25px;height: 24px;background: url("../images/detail/ser_call1.png") no-repeat;}
+.hang_server li:hover .server4{background: url("../images/detail/ser_call.png") no-repeat;}
+.hang_server li .server5{display:block;margin:0 auto;width:24px;height: 24px;background: url("../images/detail/qr_code1.png") no-repeat;}
+.hang_server li:hover .server5{background: url("../images/detail/qrcode.png") no-repeat;}
+.hang_server li .server6{display:block;margin:0 auto;width:24px;height: 14px;background: url("../images/detail/back1.png") no-repeat;}
+.hang_server li:hover .server6{background: url("../images/detail/back.png") no-repeat;}
+.hang_server.on{position:fixed;right: 0;top: 30%;} 
+.hang_server li.qrcode .pop_qrcode{position:absolute;bottom: 0;right: 0;margin-right: 53px;margin-bottom:-60px;display: none}
+.hang_server li.qrcode{position: relative}
+.hang_server li:hover.qrcode .pop_qrcode{display:block;}
+
+.ser_button{position:fixed;bottom: 5%;right: 2%;z-index: 999}
+
+.hang_server li.qrcode .qq_qrcode{position:absolute;bottom: 0;right: 0;margin-right: 53px;margin-bottom:-60px;display: none}
+.hang_server li.qrcode{position: relative}
+.hang_server li:hover.qrcode .qq_qrcode{display:block;}

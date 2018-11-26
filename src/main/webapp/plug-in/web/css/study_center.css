@@ -1,0 +1,40 @@
+.study_list{background-color: #f2f2f2;}
+.banner img{width: 100%;height: auto;}
+.study_list .title h3{font-size:28px;color:#333333;text-align: center;padding-top: 75px;}
+.study_list .title h4{font-size:24px;color:#333333;text-align: center;}
+.study_list .title i{display:block;width: 50px;height: 5px;background-color: #25b674;margin:0 auto;margin-top: 20px;margin-bottom: 80px}
+.study_list .list li{margin-bottom: 40px;background-color: #fff;height: 180px;}
+.study_list .list li .txt h3{font-size:24px;color:#333333;height: 90px;line-height: 90px;}
+.study_list .list li .txt p{font-size:16px;color:#666;margin-bottom: 10px;}
+.study_list .list li:nth-child(odd) img{float: left;margin-right: 30px}
+.study_list .list li:nth-child(even) img{float: right;}
+.study_list .list li:nth-child(even) .txt{padding-left: 25px}
+.study_list .list{padding-bottom: 30px;}
+.teacher_box{margin-top: 45px !important;margin-bottom: 140px !important;}
+.teacher_box .title h3{height: 60px;line-height: 60px;padding-left: 30px;border:1px solid #d4d4d4;background-color: #f5f5f5;font-size:18px;color:#666666;}
+.title_header li{float: left;font-size:14px;color: #8d8d8d;padding-left: 30px;height: 36px;line-height: 36px;width: 200px;text-align: center}
+.title_header{border:1px solid #d4d4d4;border-top:0;}
+.title_header li:first-child{width: 320px;text-align: left}
+.title_header li:last-child{width: 100px;}
+.list_header dl{border:1px solid #d4d4d4;border-top:0;cursor: pointer}
+.list_header dl:hover{background-color: #fafafa;}
+.list_header dl dd a:hover{background-color: #6ba1f1;color:#fff;}
+.list_header dl:hover dd em{display:inline-block;transform:rotate(180deg);}
+.list_header dl.active dd a{background-color: #6ba1f1;color:#fff;}
+.list_header dl.rotate dd em{transform:rotate(0deg);}
+.list_header dd{height: 74px;line-height: 74px;float: left;font-size:14px;color: #8d8d8d;padding-left: 30px;width: 200px;text-align: center}
+.list_header dd:first-child{width: 320px;text-align: left}
+.list_header dd:last-child{width: 100px;}
+.list_header dd i{margin-left: 15px;display:inline-block;width: 34px;height: 16px;line-height: 16px;background-color: #ff3f59;border-radius: 15px;font-size: 8px;color: #fff;font-weight: bold;text-align: center}
+.list_header dd a{width: 98px;height: 33px;line-height: 33px;display:block;text-align: center;border:1px solid #6ba1f1;color:#6ba1f1;border-radius: 5px;font-size:14px ;margin-top: 20px;}
+.list_header dd em{display:inline-block;width: 9px;height: 5px;background: url("../images/teacher_next_icon.png") no-repeat;margin-left: 10px;display: none}
+.list_txt{padding:35px 60px;background-color: #f5f5f5;border:1px solid #d4d4d4;border-top:0;display: none}
+.list_txt.on{display:block;}
+.list_txt .top_txt h3{font-size: 16px;color:#8d8d8d;margin-bottom: 5px;}
+.list_txt .top_txt li{font-size: 14px;color:#8d8d8d;height: 30px;line-height: 30px;}
+.list_txt .top_txt ol{padding-bottom: 20px;border-bottom:1px solid #e7e7e7;}
+.list_txt .bottom_txt h3{font-size: 16px;color:#8d8d8d;margin-bottom: 5px;margin-top: 20px;}
+.list_txt .bottom_txt li{font-size: 14px;color:#8d8d8d;height: 30px;line-height: 30px;}
+.list_txt .bottom_txt ol{padding-bottom: 20px;}
+
+

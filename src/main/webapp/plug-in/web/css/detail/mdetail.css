@@ -1,0 +1,85 @@
+
+.nav_detail{background-color: #f8f8f8;height: 50px; line-height: 50px;}
+.nav_detail p{display: inline-block;font-size: 18px;color:#333333;}
+.nav_detail .left{float: left;}
+.nav_detail .left img{width: 9px;height: 16px;padding:0 10px;display: inline-block;vertical-align: middle;margin-top: -5px;}
+.nav_detail .right{float: right;}
+.nav_detail span{font-size: 18px;color:#666666;}
+.mtext{width: 775px;margin:0 auto;margin-top: 100px}
+.face{width: 139px;margin:0 auto;margin-top: 30px}
+.intro {width: 1040px;margin:0 auto;margin-top: 30px}
+.intro img{width: 58px;display: inline-block;vertical-align: middle;margin-top: -25px}
+.intro p{display: inline-block;font-size: 28px;color:#333;}
+.intro p span{font-size:30px;color:#333333;font-weight: bold;}
+.intro .button{display: block;width: 300px;height: 128px;line-height: 113px;background: url(../../images/detail/mbutton1.png) no-repeat;margin:100px auto;text-align: center;font-size:20px;color:#fff;font-weight: bold;margin-bottom: 50px}
+
+.detail .title img{width: 439px;margin:0 auto;margin-bottom: 30px}
+.detail .sm_title{width: 980px;margin:0 auto;margin-bottom: 30px;}
+.detail .sm_title i{display: inline-block;width: 30px;height: 34px;background: url(../../images/detail/detail_fire.png) no-repeat;margin-right: 12px;margin-top: -18px;vertical-align: middle}
+.detail .sm_title h2{display: inline-block;height: 25px;line-height: 25px;font-size:24px;color:#e7736a;font-weight: 700;}
+
+.detail .tab_nav{width: 980px;margin:0 auto;border-top: 3px solid #e7736a}
+.detail .tab_nav li{cursor:pointer;float: left;width: 326px;height: 70px;line-height: 70px;text-align: center;color:#fff;font-size:20px;font-weight: bold;background-color: #e7736a;}
+.detail .tab_nav li:nth-child(2){border-left:1px solid #fff;border-right:1px solid #fff;}
+.detail .tab_nav li.mactive{color:#e7736a;background-color: #fff;}
+.mixun .tab_nav li:nth-child(3){border-right:1px solid #fff;}
+.mixun .tab_nav li{cursor:pointer;float: left;width: 244px;}
+.texun .tab_nav li:nth-child(3){border-right:1px solid #fff;}
+.texun .tab_nav li{cursor:pointer;float: left;width: 244px;}
+.liankao .tab_nav li{width: 489px;}
+
+.detail .tab_list{width: 980px;margin:0 auto;background-color: #fff;}
+.detail  table{background-color: #fff;}
+.detail  table tr td {border-right:1px solid #f8d5d2;}
+.detail  table,table tr td:last-child{border-right:0;}
+.detail  table {text-align: center;border-collapse: collapse;width: 919px;margin:0 auto;} 
+.detail  tr{height: 70px;line-height: 70px;border-bottom:1px solid #f8d5d2;}
+.detail  table tr:first-child{border-bottom:2px solid #f8d5d2;}
+.detail  table tr th, table tr td {width: 200px;}
+.detail  table tr th{font-size:18px;color:#e7736a;font-weight: normal;}
+.detail  table tr td{font-size:16px;color:#333333;}
+.detail  table tr th i{display: inline-block;width: 22px;height: 18px;margin-top: -2px;vertical-align: middle;margin-right: 8px}
+.detail  table tr th:first-child i{background:url(../../images/detail/mark.png) no-repeat;}
+.detail  table tr th:nth-child(2) i{background:url(../../images/detail/time.png) no-repeat;}
+.detail  table tr th:nth-child(3) i{background:url(../../images/detail/mcourse.png) no-repeat;}
+.detail  table tr th:nth-child(4) i{background:url(../../images/detail/mcourse_time.png) no-repeat;}
+.detail  table tr td i{display: inline-block;width: 20px;height: 14px;margin-top: -2px;vertical-align: middle;margin-right: 8px;background:url(../../images/detail/mhot.png) no-repeat;}
+
+.detail .tab_footer{height: 70px;background-color: #515a67;margin-bottom: 60px}
+.detail .tab_footer p{float: left;font-size: 18px;color:#fff;margin-left: 60px;height: 70px;line-height: 70px;}
+.detail .tab_footer span{float: left;font-size: 30px;color:#fb867d;margin-left: 85px;height: 70px;line-height: 70px;font-weight: bold;}
+.detail .tab_footer span i{display: inline-block;font-size: 20px;font-weight: normal;}
+.detail .tab_footer a{float: right;width: 200px;height: 43px;line-height: 43px;background:url(../../images/detail/mbtn_bgc.png) no-repeat;text-align: center;font-size: 20px;color:#fff;margin-top: 15px;margin-right: 40px}
+.empty{height: 10px;background-color: #f2f1ef;width: 980px;}
+.texun .tab_list li:last-child tr:first-child{height: 70px;line-height: 70px;}
+.texun .tab_list li:last-child tr{height: 45px;line-height: 45px;}
+.texun .tab_list li tr:first-child{height: 70px;line-height: 70px;}
+.liankao .tab_list li tr:first-child{height: 70px;line-height: 70px;}
+.liankao .tab_list li tr{height: 45px;line-height: 45px;}
+.liankao  table tr th:first-child i{background:url(../../images/detail/mark.png) no-repeat;}
+.liankao  table tr th:nth-child(2) i{background:url(../../images/detail/mcontent.png) no-repeat;}
+.liankao  table tr th:nth-child(3) i{background:url(../../images/detail/time.png) no-repeat;}
+.liankao  table tr th:nth-child(4) i{background:url(../../images/detail/mcourse.png) no-repeat;}
+.liankao  table tr th:nth-child(5) i{background:url(../../images/detail/mcourse_time.png) no-repeat;}
+
+.orgnize .title img{width: 439px;margin:0 auto;margin-bottom: 50px;margin-top: 60px}
+.orgnize{width: 750px;margin:0 auto;}
+.orgnize  table,.orgnize table tr th,.orgnize table tr td { border:1px solid #bbd8fe; }
+.orgnize  table {text-align: center; border-bottom:2px solid #bbd8fe; border-collapse: collapse;} 
+.orgnize  tr{height: 70px;line-height: 70px;}
+.orgnize  tr td:first-child{width: 152px;}
+.orgnize  tr td{font-size:14px;color:#333;}
+.orgnize  tr td:nth-child(2){width: 232px;background-color: #cee3ff;color:#355dcc;padding:20px;text-align: left;line-height: 20px;}
+.orgnize  tr td:last-child{width: 385px;text-align: left;padding:20px;line-height: 20px;}
+.orgnize table tr th{font-size:18px;color:#355dcc;background-color: #cee3ff;font-weight: normal;}
+.orgnize table tr th span{font-size:12px;}
+.orgnize table tr th:nth-child(2){background-color: #5096f7;color:#fff}
+.mteacher .title img{width: 439px;margin:0 auto;margin-bottom: 50px;margin-top: 100px}
+.banner_footer img{width: 750px;margin:120px auto;}
+.whole_course li{transition:all .5s;} 
+.whole_course li:hover{transform:translateY(-3px)}
+.jinping_course{padding-bottom: 43px}
+
+.detail {display: none;width: 100%;height:auto;background: url("../../images/detail/detail_bgc.png") no-repeat top center;background-color: #f5f4f3;}
+.detail .title{padding-top: 60px}
+
